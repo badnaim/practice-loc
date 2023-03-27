@@ -5,7 +5,7 @@ const db = mongoose
     "mongodb+srv://batnyam17:batnyam17@cluster0.gfvhelw.mongodb.net/sample_restaurants"
   )
   .then((res) => {
-    console.log("mongodb sample_restaurant");
+    console.log("mongodb sample_restaurant connected");
   })
   .catch((err) => {
     console.log(err, "mongoose-config aldaa");
